@@ -1,0 +1,28 @@
+# Secrets — must never be committed
+scripts/.env
+.env
+.env.local
+*.key
+*.pem
+
+# Runtime artifacts (per-cwd, may contain sensitive image transcripts)
+vision-transcripts/
+**/vision-transcripts/
+
+# Hook debug log (may contain user action traces)
+hooks/hook-debug.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node (not actually used, but defensive)
+node_modules/
+package-lock.json
