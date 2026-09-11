@@ -1,6 +1,8 @@
-# vision-proxy
+# vision-proxy · 给无视觉能力的编程主模型装上眼睛
 
-> 给任何"无视觉能力"的编程主模型装上眼睛——不换主模型、不改上下文。
+> 一个 Claude Code / MiniMax Code skill：让任何文本专精的编程模型
+> 也能"看"你贴的截图、拖的设计稿、敲的图片路径——不换主模型、不改上下文。
+>
 > A drop-in skill for Claude Code / MiniMax Code that gives any text-only coding
 > model the ability to "see" pasted images, dropped screenshots, and image URLs.
 
